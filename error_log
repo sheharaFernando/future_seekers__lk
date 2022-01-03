@@ -1,0 +1,14 @@
+[28-Dec-2021 16:31:53 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: siteSetting in /home/ehosrech/futureseekers.lk.2hostout.com/storage/framework/views/e4566d27ddba8e868a504d4af040ccbde4f45381.php:4
+Stack trace:
+#0 /home/ehosrech/futureseekers.lk.2hostout.com/storage/framework/views/e4566d27ddba8e868a504d4af040ccbde4f45381.php(4): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/ehosrech/...', 4, Array)
+#1 /home/ehosrech/futureseekers.lk.2hostout.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/ehosrech/...')
+#2 /home/ehosrech/futureseekers.lk.2hostout.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#3 /home/ehosrech/futureseekers.lk.2hostout.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/ehosrech/...', Array)
+#4 /home/ehosrech/futureseekers.lk.2hostout.com/vendor/laravel/ in /home/ehosrech/futureseekers.lk.2hostout.com/resources/views/includes/header.blade.php on line 4
+[28-Dec-2021 16:34:09 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: siteSetting in /home/ehosrech/futureseekers.lk.2hostout.com/storage/framework/views/e4566d27ddba8e868a504d4af040ccbde4f45381.php:4
+Stack trace:
+#0 /home/ehosrech/futureseekers.lk.2hostout.com/storage/framework/views/e4566d27ddba8e868a504d4af040ccbde4f45381.php(4): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/ehosrech/...', 4, Array)
+#1 /home/ehosrech/futureseekers.lk.2hostout.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/ehosrech/...')
+#2 /home/ehosrech/futureseekers.lk.2hostout.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#3 /home/ehosrech/futureseekers.lk.2hostout.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/ehosrech/...', Array)
+#4 /home/ehosrech/futureseekers.lk.2hostout.com/vendor/laravel/ in /home/ehosrech/futureseekers.lk.2hostout.com/resources/views/includes/header.blade.php on line 4
